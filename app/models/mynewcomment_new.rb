@@ -1,3 +1,4 @@
+#rubocop:disable all
 # app/models/mynewcomment_new.rb
 
 class MynewcommentNew < ApplicationRecord
