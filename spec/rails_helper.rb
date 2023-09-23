@@ -11,3 +11,4 @@ require 'rspec/rails'
 
 # Set the spec type
 RSpec.configure(&:infer_spec_type_from_file_location!)
+# bundle exec rspec spec/models/mynewlike_new_spec.rb
