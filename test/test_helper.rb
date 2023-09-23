@@ -1,8 +1,9 @@
+# rubocop:disable all
 # test/test_helper.rb
 
 # Load the Rails environment and testing libraries
 ENV['RAILS_ENV'] ||= 'test'
-require File.expand_path('../../config/environment', __FILE__)
+require File.expand_path('../config/environment', __dir__)
 require 'rails/test_help'
 
 # Add any additional testing gems or setup here
