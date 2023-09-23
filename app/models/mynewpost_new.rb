@@ -1,0 +1,2 @@
+class MynewpostNew < ApplicationRecord
+end
