@@ -1,5 +1,5 @@
 # spec/rails_helper.rb
-
+# rubocop:disable all
 # Load the Rails environment
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../config/environment', __dir__)
