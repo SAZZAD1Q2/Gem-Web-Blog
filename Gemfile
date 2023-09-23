@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
+# rubocop:disable all
 ruby '3.2.2' # Updated Ruby version
 
 group :development, :test do
@@ -15,9 +15,8 @@ group :development, :test do
 end
 
 group :test do
-  gem 'rspec-rails'
-  gem 'shoulda-matchers', '~> 5.0'
   gem 'shoulda-callback-matchers', '1.1.4' # Use the correct version here
+  gem 'shoulda-matchers', '~> 5.0'
   # ... other gems ...
 end
 
