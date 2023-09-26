@@ -1,13 +1,10 @@
 class UsersController < ApplicationController
   def index
-    # Placeholder for the all users page
+    @users = User.all
   end
 
   def show
-    # Placeholder for a single user page
-  end
-
-  def posts
-    # Placeholder for all posts by a given user page
+    @user = User.find(params[:id])
+    @posts = @user.posts
   end
 end
