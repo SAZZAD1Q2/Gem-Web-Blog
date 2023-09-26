@@ -1,5 +1,5 @@
 # spec/rails_helper.rb
-# rubocop:disable all
+
 # Load the Rails environment
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../config/environment', __dir__)
@@ -10,5 +10,8 @@ require 'rspec/rails'
 # Add other configuration settings here if needed
 
 # Set the spec type
-RSpec.configure(&:infer_spec_type_from_file_location!)
-# bundle exec rspec spec/models/mynewlike_new_spec.rb
+RSpec.configure do |config|
+  config.infer_spec_type_from_file_location!
+  config.include Rails.application.routes.url_helpers
+  # ...
+end
