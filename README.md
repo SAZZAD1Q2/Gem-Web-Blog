@@ -35,6 +35,7 @@
 ## 🛠 Built With <a name="built-with"></a>
 <li>Ruby</li>
 <li>Rails</li>
+<li>Spec</li>
 
 ### Tech Stack <a name="tech-stack"></a>
 
