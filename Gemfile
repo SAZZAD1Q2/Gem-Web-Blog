@@ -18,6 +18,8 @@ gem 'rails-controller-testing'
 
 gem 'nokogiri'
 
+gem 'factory_bot_rails'
+
 group :test do
   gem 'shoulda-callback-matchers', '1.1.4' # Use the correct version here
   gem 'shoulda-matchers', '~> 5.0'
