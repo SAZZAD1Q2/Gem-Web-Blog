@@ -14,6 +14,10 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+gem 'rails-controller-testing'
+
+gem 'nokogiri'
+
 group :test do
   gem 'shoulda-callback-matchers', '1.1.4' # Use the correct version here
   gem 'shoulda-matchers', '~> 5.0'
